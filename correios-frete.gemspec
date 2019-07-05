@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "log-me", "~> 0.0.10"
   gem.add_dependency "nokogiri", RUBY_VERSION >= "2.6" ? "~> 1.7" : "1.6.8"
-  gem.add_dependency "sax-machine", "~> 0.2.1"
+  gem.add_dependency "sax-machine", RUBY_VERSION >= "2.6" ? "~> 1.3" : "~> 0.2.1"
 
   gem.add_development_dependency "rake", "~> 12.0"
   gem.add_development_dependency "pry", "~> 0.10"
